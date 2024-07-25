@@ -30,7 +30,7 @@ do {
             } else document.write("As matrizes não podem ser somadas (tamanhos diferentes)");
             break;
         case 3:
-            document.write("Para multiplicar duas matrizes, as matrizes precisam ter dimensões compatíveis.<br>Se temos uma matriz A<sub>mxn</sub> (m linhas e n colunas) e uma matriz B<sub>nxp</sub>, então a matriz resultante AxB terá dimensões <sub>mxp</sub>.<br><br>O calculo é feito a partir da multiplicação entre as linhas de A as colunas de B, onde os resultados são somados.");
+            document.write("Para multiplicar duas matrizes, as matrizes precisam ter dimensões compatíveis.<br>Se temos uma matriz A<sub>AlxAc</sub> (Al linhas e Ac colunas) e uma matriz B<sub>BlxBc</sub>, então a matriz resultante A*B terá dimensões <sub>AlxBc</sub>.<br><br>O calculo é feito a partir da multiplicação entre as linhas de A as colunas de B, onde os resultados são somados.");
             if (matrizA.length == matrizB[0].length) {
             var resultado = multiplicar(matrizA, matrizB);
             imprimirMatriz(resultado);
